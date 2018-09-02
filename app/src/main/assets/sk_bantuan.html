@@ -1,0 +1,493 @@
+<html>
+<style type="text/css">
+@font-face {
+	font-family:MyFont;
+	src:url(ProductSans.ttf);
+}
+@font-face {
+	font-family:MyTitle;
+	src:url(fonts/MarkBold.otf); 
+}
+
+.transition, ul li i:before, ul li i:after {
+  transition: all 0.15s ease-in-out;
+}
+
+.flipIn, h1, ul li {
+  animation: flipdown 0.3s ease both;
+}
+
+.no-select, h2 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  perspective: 900;
+  overflow-y: scroll;
+  background-color: #dce7eb;
+  font-family: "Titillium Web", sans-serif;
+  color: rgba(48, 69, 92, 0.8);
+}
+
+body {
+  min-height: 0;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  margin: 90px 0;
+  transform: translate(-50%, 0);
+  background-color: #ffffff;
+  max-width: 450px;
+  padding: 30px;
+}
+@media (max-width: 550px) {
+  body {
+    box-sizing: border-box;
+    transform: translate(0, 0);
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    left: 0;
+  }
+}
+
+br {
+	margin-top:8px;
+	margin-bottom:8px;
+}
+h1 {
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 42px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 15px;
+  line-height: 34px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: block;
+  color:#848484;
+  background-color: #ffffff;
+  margin: 0;
+  cursor: pointer;
+}
+
+p {
+  color: #363636;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 14px;
+  z-index: 2;
+}
+tr {
+	padding-bottom:8dp;
+}
+td {
+	font-size:13px;
+	line-height:20px;
+}
+
+ul {
+  list-style: none;
+  perspective: 900;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 4px;
+  padding-top: 18px;
+  border-top: 1px dotted #dce7eb;
+}
+ul li:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+ul li:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+ul li:nth-of-type(3) {
+  animation-delay: 1s;
+}
+ul li:last-of-type {
+  padding-bottom: 0;
+}
+ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 0;
+}
+ul li i:before, ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: #DF891B;
+  width: 3px;
+  height: 9px;
+}
+ul li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+ul li input[type=checkbox]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+ul li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+ul li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+@keyframes flipdown {
+  0% {
+    opacity: 0;
+    transform-origin: top center;
+    transform: rotateX(-90deg);
+  }
+  5% {
+    opacity: 1;
+  }
+  80% {
+    transform: rotateX(8deg);
+  }
+  83% {
+    transform: rotateX(6deg);
+  }
+  92% {
+    transform: rotateX(-3deg);
+  }
+  100% {
+    transform-origin: top center;
+    transform: rotateX(0deg);
+  }
+}
+
+table#miyazaki { 
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-weight: 100; 
+  background: #333; color: #fff;
+  text-rendering: optimizeLegibility;
+  border-radius: 5px; 
+}
+table#miyazaki thead th { font-weight: 600; }
+table#miyazaki thead th, table#miyazaki tbody td { 
+  padding: .8rem; font-size: 12px;
+}
+table#miyazaki tbody td { 
+  padding: .8rem; font-size: 12px;
+  color: #444; background: #eee; 
+}
+table#miyazaki tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+
+@media screen and (max-width: 400px) {
+  table#miyazaki caption { background-image: none; }
+  table#miyazaki thead { display: none; }
+  table#miyazaki tbody td { 
+    display: block; padding: .6rem; 
+  }
+  table#miyazaki tbody tr td:first-child { 
+    background: #666; color: #fff; 
+  }
+	table#miyazaki tbody td:before { 
+    content: attr(data-th); 
+    font-weight: bold;
+    display: inline-block;
+    width: 4rem;  
+  }
+}
+
+</style>
+<body style=" background-color:#FFFFFF; padding-left:20px; padding-top:20px; padding-bottom:80px; padding-right:25px;">
+<div id="title" style="text-align: left; font-family:MyTitle;"><h1 style="font-size:20px; margin-top:20px; line-height:1.6; margin-bottom:20px;">Bantuan</h1></div>
+<div id="content" style="text-align: left; line-height:1.7; font-family:MyFont; font-size:14px; margin-top:20px;">
+
+<ul>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah itu momaju?</h2>
+    <p style="text-align:justify; text-indent:35px;">Momaju adalah Lending Platform dan Portal milik PT Sampoerna Wirausaha yang digunakan untuk memfasilitasi pembiayaan pinjaman UMKM di Indonesia yang diberikan oleh Partner Lembaga Keuangan momaju. Dengan melalui jaringan Agen, momaju mampu mengidentifikasi usaha-usaha kecil yang membutuhkan pendanaan agar usahanya dapat tumbuh dan berkembang.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Siapakah agen momaju?</h2>
+    <p style="text-align:justify; text-indent:35px;">Agen momaju adalah seseorang yang berusia di atas 21 tahun yang sudah mendaftar di aplikasi momaju dan syarat-syaratnya telah diverifikasi.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Siapakah peminjam dana momaju?</h2>
+    <p style="text-align:justify; text-indent:35px;">Keluarga, teman, pelaku UMKM ataupun orang di sekeliling kamu yang berusia di atas 21 tahun yang sedang membutuhkan pinjaman dana modal usaha atau multiguna.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Siapakah partner Lembaga <br>Keuangan momaju?</h2>
+    <p style="text-align:justify; text-indent:35px;">Partner Lembaga Keuangan momaju merupakan Lembaga Keuangan atau Lembaga keuangan lainnya yang memiliki produk pinjaman yang bekerja sama dengan momaju yang telah melalui tahap verifikasi sebelumnya yang akan memberikan pinjaman dana ke peminjam.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apa sajakah syarat menjadi agen di momaju?</h2>
+    <p>1. Memiliki KTP
+      <br>2. Berusia minimal 21 tahun
+      <br>3. Memiliki rekening bank atas nama sendiri</p>
+    <p style="text-align:justify; text-indent:35px;">Untuk dapat disetujui menjadi agen momaju, data agen yang didaftarkan di aplikasi momaju harus valid. Agen harus berusia minimal 21 tahun dan memiliki rekening bank atas nama diri sendiri. Jika agen memasukkan data yang tidak valid dan atau berusia di bawah 21 tahun dan atau tidak memiliki rekening bank atas nama diri sendiri maka akun tidak dapat diverifikasi dan akun akan di block.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah bisa menjadi agen momaju apabila masih bekerja?</h2>
+    <p style="text-align:justify; text-indent:35px;">Sangat bisa. Mejadi agen momaju dapat dijalankan secara full time ataupun part time untuk dapat menambah penghasilan.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah waktu kerja agen bisa fleksibel?</h2>
+    <p style="text-align:justify; text-indent:35px;">Sangat bisa. Agen dapat menentukan sendiri jam kerja yang diinginkan dalam kunjungan ke calon peminjam dana antara pukul 08.00 - 20.00 waktu setempat.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah ada biaya pendaftaran <br>untuk menjadi agen momaju?</h2>
+    <p style="text-align:justify; text-indent:35px;">Tidak ada biaya pendaftaran untuk menjadi agen momaju. Tidak hanya itu, hanya dengan mengisi data diri kamu tidak hanya langsung aktif menjadi agen, tapi juga mendapatkan bonus registrasi sebesar Rp. 10.000.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah yang harus dikerjakan agen  momaju?</h2>
+    <p style="text-align:justify; text-indent:35px;">Agen harus melakukan 2 pekerjaan, yaitu memvalidasi data pinjaman dan menginput pinjaman baru.
+    <br><br><b>Menginput data pinjaman baru:</b>
+     
+       Setiap agen dapat menginput data pinjaman baru dengan menekan tombol (+) di halaman depan. Cari orang yang membutuhkan pinjaman modal usaha atau multiguna. Kemudian ikuti setiap langkah pengisian form di aplikasi momaju yang dibagi menjadi 3 bagian, Data Peminjam, Data Jaminan dan Pinjaman.
+      
+     <br><br><b>Memvalidasi data pinjaman :</b>
+      Setiap ada data pinjaman yang masuk melalui momaju.id, akan ditayangkan di daftar tugas aplikasi momaju. Agen bertugas mengunjungi peminjam untuk melengkapi data-data dan upload dokumen peminjam ke aplikasi momaju. Agen hanya dapat mengunjungi calon peminjam pada pukul 08.00 - 20.00 waktu setempat.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah yang dimaksud dengan <br>tugas menginput data pinjaman baru?</h2>
+    <p style="text-align:justify; text-indent:35px;">Agen dapat menginput data pinjaman baru untuk keluarga, teman, pelaku UMKM ataupun orang di sekeliling kamu yang sedang membutuhkan pinjaman dana modal usaha atau multiguna. Masukkan data diri calon peminjam, kemudian masukkan data-data dan dokumen jaminan yang akan di agunkan.<br>
+    <br><b>Berikut adalah daftar Data Peminjam:</b>
+      <br>1. Nama
+      <br>2. Foto peminjam
+      <br>3. Nomor KTP
+      <br>4. Foto KTP (upload / take pic)
+      <br>5. Nomor HP
+      <br>6. Foto Diri (upload / take pic)
+      <br>7. Alamat
+      <br>8. Tanggal Lahir
+      <br>9. Pekerjaan
+      <br>10. Tujuan Pinjaman (Modal Usaha / Multiguna)
+      <br>11. Jaminan sedang diagunkan atau tidak
+    <br><br>Data Jaminan dibagi menjadi 2;<br> Bangunan dengan jaminan SHM / SHGB, Kendaraan bermotor dengan jaminan BPKB mobil / BPKB motor.
+    <br><br><b>Berikut adalah daftar Data Jaminan SHM / SHGB:</b>
+   <br>1. Luas Tanah
+      <br>2. Luas Bangunan
+      <br>3. Alamat Jaminan
+      <br>4. Foto Bangunan (untuk bangunan rumah harus terlihat utuh bangunan rumahnya. Untuk bangunan dalam gedung seperti apartemen hanya bagian ruangannya saja)
+      <br>5. Foto halaman depan full SHM/SHGB (nomor sertifikat harus terlihat jelas)
+      <br>6. Foto Lembar yang mencantumkan nama pemilik SHM/SHGB (nama pemilik terakhir)
+    <br><br><b>Berikut adalah daftar Data Jaminan SHM / SHGB:</b>
+      <br>1. Jenis Kendaraan (motor/mobil)
+      <br>2. Merek (mis. Honda, Toyota, Kawasaki)
+      <br>3. Tipe (mis. Brio, Fortuner, Ninja)
+      <br>4. Year (maksimal 10 tahun)
+      <br>5. Foto Kendaraan (yang memperlihatkan sisi kendaraan dan nomor polisi yang jelas)
+      <br>6. Foto Lembar BPKB yang mencantumkan identitas kendaraan</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah yang dimaksud dengan <br>tugas memvalidasi data pinjaman?</h2>
+    <p style="text-align:justify; text-indent:35px;">Berbeda dengan mengerjakan pekerjaan menginput data pinjaman baru, dalam pekerjaan memvalidasi data peminjam, peminjam telah mengisi sebagian datanya. Agen bertugas untuk mengunjungi peminjam dan melengkapi data dan dokumen pinjaman.
+    <br><br><b>Isian yang harus dilengkapi oleh agen adalah sebagai berikut:</b>
+      <br>1. Foto peminjam
+      <br>2. Alamat Tempat tinggal Lengkap
+      <br>3. Pekerjaan
+      <br>4. Upload Foto KTP
+      <br>5. Tujuan Pinjaman (Modal Usaha / Multiguna)
+      <br>6. Jaminan sedang diagunkan atau tidak
+      
+    <br><br>Data Jaminan dibagi menjadi 2; <br>Bangunan dengan jaminan SHM / SHGB, Kendaraan bermotor dengan jaminan BPKB mobil / BPKB motor. 
+    <br><br><b>Berikut adalah daftar Data Jaminan SHM / SHGB:</b>
+      <br>1. Luas Tanah
+      <br>2. Luas Bangunan
+      <br>3. Alamat Jaminan
+      <br>4. Foto Bangunan (untuk bangunan rumah harus terlihat utuh bangunan rumahnya. Untuk bangunan dalam gedung seperti apartemen hanya bagian ruangannya saja)
+      <br>5. Foto halaman depan full SHM/SHGB (nomor sertifikat harus terlihat jelas)
+      <br>6. Foto Lembar yang mencantumkan nama pemilik SHM/SHGB (nama pemilik terakhir)
+    <br><br><b>Berikut adalah daftar Data Jaminan SHM / SHGB:</b>
+      <br>1. Jenis Kendaraan (motor/mobil)
+      <br>2. Merek (mis. Honda, Toyota, Kawasaki)
+      <br>3. Tipe (mis. Brio, Fortuner, Ninja)
+      <br>4. Year (maksimal 10 tahun)
+      <br>5. Foto Kendaraan (pastikan foto kendaraan yang memperlihatkan sisi kendaraan dan nomor polisi yang jelas)
+      <br>6. Foto Lembar BPKB yang mencantumkan identitas kendaraan
+      </p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apa sajakah yang bisa dijadikan jaminan atau agunan dalam pengajuan pinjaman di momaju.id?</h2>
+    <p style="text-align:justify; text-indent:35px;">Dokumen yang dapat dijadikan sebagai jaminan adalah SHM / SHGB / BPKB Motor / BPKB Mobil.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apa sajakah dokumen yang harus disiapkan dalam pengajuan pinjaman di momaju.id?</h2>
+    <p style="text-align:justify; text-indent:35px;">Dokumen yang harus disiapkan oleh peminjam adalah KTP, foto jaminan (bangunan/ kendaraan) dan foto dokumen jaminan (SHM / SHGB / BPKB Motor / BPKB Mobil). </p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Bagaimanakah cara mengetahui perkiraan cicilan yang harus dibayarkan peminjam tiap bulannya?</h2>
+    <p style="text-align:justify; text-indent:35px;">Dalam pekerjaan memvalidasi data peminjam, peminjam telah mengetahu hasil simulasi estimasi cicilan yang harus dibayarkan tiap bulannya. Untuk pekerjaan menginput data pinjaman baru, agen dan peminjam dana akan mengetahui estimasi cicilan tiap bulannya pada aplikasi momaju setelah menginput data personal peminjam.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah yang saya dapatkan jika menjadi agen momaju?</h2>
+    <p style="text-align:justify; text-indent:35px;">Setiap data pinjaman yang dihasilkan oleh agen akan mendapatkan komisi untuk agen sesuai dengan skema komisi. Komisi ditentukan oleh apakah data pinjaman tersebut dipublikasikan ke portal lembaga keuangan atau tidak dan data pinjaman  didanai atau tidak. Berikut adalah skema komisi agen:</p>
+    <p><table id="miyazaki">
+    <thead>
+      <tr>
+        <th>Subjek</th>
+        <th>Komisi</th>
+      </tr>
+      <tbody>
+      <tr>
+        <td>Bonus pendaftaran</td>
+        <td>Rp 10.000</td>
+      </tr>
+      <tr>
+        <td>Validasi data pinjaman yang dipublikasikan ke portal</td>
+        <td>Rp 20.000</td>
+      </tr>
+      <tr>
+        <td>Input data pinjaman baru yang dipublikasikan ke portal</td>
+        <td>Rp 50.000</td>
+      </tr>
+      <tr>
+        <td>Input data pinjaman baru yang disetujui pencairan dananya</td>
+        <td>Rp 100.000</td>
+      </tr>
+    </table>
+    Berikut adalah keterangan dari skema komisi:
+      <br><br><b>Bonus pendaftaran</b>
+        <br>Agen akan mendapatkan bonus komisi Rp. 10.000 setelah mendaftar sebagai agen melalui aplikasi momaju dan syarat-syaratnya telah diverifikasi.
+      <br><br><b>Validasi data pinjaman yang dipublikasikan ke portal</b>
+        <br>Agen akan mendapatkan komisi Rp. 20.000 untuk setiap pekerjaan memvalidasi data pinjaman yang dipublikasikan ke Portal lembaga keuangan.
+      <br><br><b>Input data pinjaman baru yang dipublikasikan ke portal</b>
+        <br>Agen akan mendapatkan komisi Rp. 50.000 untuk setiap pekerjaan menginput data pinjaman baru yang dipublikasikan ke Portal lembaga keuangan.
+      <br><br><b>Input data pinjaman baru yang disetujui pencairan dananya</b>
+        <br>Agen akan mendapatkan komisi Rp. 100.000 untuk setiap pekerjaan menginput data pinjaman baru yang dipublikasikan ke Portal lembaga keuangan disetujui pencairan dananya oleh lembaga keuangan.
+    </p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah agen momaju.id boleh meminta uang atau imbalan kepada peminjam?</h2>
+    <p style="text-align:justify; text-indent:35px;">Agen momaju tidak diperkenankan memungut biaya apapun, jika ada laporan ke momaju agen meminta uang atau imbalan maka akan dikenakan sanksi atau hingga pemblokiran akun.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Berapa lama waktu yang diperlukan untuk peminjam mendapatkan dana?</h2>
+    <p style="text-align:justify; text-indent:35px;">Lamanya waktu yang diperlukan untuk proses pencairan pinjaman bervariasi tergantung kebijakan dari partner Lembaga Keuangan.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Siapakah yang akan memberikan pinjaman?</h2>
+    <p style="text-align:justify; text-indent:35px;">Momaju merupakan platform bagi peminjam untuk mendapatkan pinjaman modal usaha atau multiguna dari Lembaga Keuangan yang telah bekerja sama. Keputusan pemberian pinjaman ditentukan oleh partner Lembaga Keuangan momaju.id.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah pengajuan pinjaman di momaju.id sudah pasti disetujui dan mendapatkan pinjaman?</h2>
+    <p style="text-align:justify; text-indent:35px;">Keputusan pemberian pinjaman ditentukan oleh partner Lembaga Keuangan momaju.id. Pengajuan pinjaman akan disetujui jika data-data serta dokumen Anda yang telah disurvei dan diverifikasi sesuai dengan kriteria partner Lembaga Keuangan.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apa sajakah yang membuat pengajuan pinjaman ditolak?</h2>
+    <p style="text-align:justify; text-indent:35px;">Proses pengajuan pinjaman akan ditolak jika data atau dokumen yang diinput tidak valid atau informasi yang diberikan tidak konsisten.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apa yang membuat akun saya dibekukan (suspended)?</h2>
+    <p style="text-align:justify; text-indent:35px;">Momaju menerapkan beberapa kebijakan yang harus dipatuhi oleh agen. Demi mencegah timbulnya kasus dalam ranah hukum. Berikut adalah yang menyebabkan akun agen dibekukan (suspended) <b>yang tidak boleh dilakukan oleh agen</b> :
+  <br>
+      <br>1. Melakukan input leads fiktif (mis. Barang jaminan tidak sesuai dengan data yang diinput)
+      <br>2. Tidak menyelesaikan pekerjaan setelah claim validate leads hingga lewat masa expired (tiga hari) sebanyak tiga kali.
+      <br>3. Akun dibajak oleh orang lain
+      <br>4. Menyebarluaskan data dan informasi peminjam (termasuk sosial media)
+      </p>
+    <p style="text-align:justify; text-indent:35px;">Agen akan dikenakan sanksi atas tindakan yang dilakukan dengan menonaktifkan akun untuk sementara. Agen dapat melakukan banding/klarifikasi/permohonan pengaktifan akun kembali atas statusnya ke customer service. Akun akan diaktifkan kembali jika alasan yang diberikan dapat diterima. JIka agen mengalami suspend sebanyak tiga kali, akun agen akan di block serta nama dan no KTP di blacklist dari pendaftaran agen berikutnya.</p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apakah saya dapat melakukan banding / klarifikasi / permohonan pengaktifan kembali akun saya yang dibekukan (suspended)?</h2>
+    <p style="text-align:justify; text-indent:35px;">Agen dapat melakukan banding/klarifikasi/permohonan pengaktifan akun kembali atas statusnya ke customer service melalui :
+    <br>
+      <br><b>Telepon</b> : (021) 300 22735
+      <br><b>Whatsapp</b> : 085841459823
+      <br><b>Email</b> : bantuan@momaju.id
+      </p>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Apa yang membuat akun saya diblokir (blocked)?</h2>
+    <p style="text-align:justify; text-indent:35px;">Momaju menerapkan beberapa kebijakan yang harus dipatuhi oleh agen. Demi mencegah timbulnya kasus dalam ranah hukum. Berikut adalah yang menyebabkan akun agen diblokir (blocked) yang tidak boleh dilakukan oleh agen :
+      <br>1. Meminta uang kepada calon peminjam
+      <br>2. Membawa jaminan atau dokumen jaminan
+      <br>3. Melakukan pemalsuan & manipulasi data
+      <br>4. Berbicara dan atau bertindak ke arah pemerasan (lisan maupun tulisan)
+      <br>5. Melakukan tindakan kriminal
+      </p>
+    <p style="text-align:justify; text-indent:35px;">Akun agen akan di block serta nama dan no KTP di blacklist dari pendaftaran agen berikutnya. Sisa saldo akan hangus dan tidak bisa ditarik. Jika terbukti melakukan tindakan kriminal akan diserahkan ke pihak berwajib.</p>
+  </li>
+</ul>
+</div>
+</body>
+</html>

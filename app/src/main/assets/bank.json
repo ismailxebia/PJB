@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "1",
+    "created_date": "2016-12-15 10:34:06.498681",
+    "update_date": "2016-12-15 10:34:06.498695",
+    "name": "Bank Central Asia (BCA)",
+    "code": "BCA"
+  },
+  {
+    "id": "2",
+    "created_date": "2016-12-15 10:34:06.517985",
+    "update_date": "2016-12-15 10:34:06.517995",
+    "name": "Bank Mandiri",
+    "code": "MANDIRI"
+  },
+  {
+    "id": "3",
+    "created_date": "2016-12-15 10:34:06.546331",
+    "update_date": "2016-12-15 10:34:06.546342",
+    "name": "Bank Rakyat Indonesia (BRI)",
+    "code": "BRI"
+  },
+  {
+    "id": "4",
+    "created_date": "2016-12-15 10:34:06.560368",
+    "update_date": "2016-12-15 10:34:06.560378",
+    "name": "Bank Negara Indonesia (BNI)",
+    "code": "BNI"
+  },
+  {
+    "id": "5",
+    "created_date": "2016-12-15 10:34:06.574561",
+    "update_date": "2016-12-15 10:34:06.574572",
+    "name": "Bank CIMB Niaga",
+    "code": "CIMB"
+  },
+  {
+    "id": "6",
+    "created_date": "2016-12-15 10:34:06.598773",
+    "update_date": "2016-12-15 10:34:06.598783",
+    "name": "Bank Danamon",
+    "code": "DANAMON"
+  },
+  {
+    "id": "7",
+    "created_date": "2016-12-15 10:34:06.615132",
+    "update_date": "2016-12-15 10:34:06.615142",
+    "name": "Bank Permata",
+    "code": "PERMATA"
+  },
+  {
+    "id": "8",
+    "created_date": "2016-12-15 10:34:06.628658",
+    "update_date": "2016-12-15 10:34:06.628667",
+    "name": "Bank Panin",
+    "code": "PANIN"
+  },
+  {
+    "id": "9",
+    "created_date": "2016-12-15 10:34:06.652411",
+    "update_date": "2017-09-12 09:38:12.548354",
+    "name": "Bank Maybank",
+    "code": "MAYBANK"
+  },
+  {
+    "id": "10",
+    "created_date": "2016-12-15 10:34:06.666154",
+    "update_date": "2016-12-15 10:34:06.666166",
+    "name": "Anglomas International Bank",
+    "code": "ANGLOMAS"
+  },
+  {
+    "id": "11",
+    "created_date": "2016-12-15 10:34:06.679863",
+    "update_date": "2016-12-15 10:34:06.679873",
+    "name": "Bangkok Bank",
+    "code": "BANGKOK"
+  },
+  {
+    "id": "12",
+    "created_date": "2016-12-15 10:34:06.694626",
+    "update_date": "2016-12-15 10:34:06.694637",
+    "name": "Bank Agris",
+    "code": "AGRIS"
+  },
+  {
+    "id": "13",
+    "created_date": "2016-12-15 10:34:06.721182",
+    "update_date": "2016-12-15 10:34:06.721196",
+    "name": "Sinarmas",
+    "code": "SINARMAS"
+  },
+  {
+    "id": "14",
+    "created_date": "2016-12-15 10:34:06.736620",
+    "update_date": "2016-12-15 10:34:06.736632",
+    "name": "Bank Agroniaga",
+    "code": "AGRONIAGA"
+  },
+  {
+    "id": "15",
+    "created_date": "2016-12-15 10:34:06.774569",
+    "update_date": "2016-12-15 10:34:06.774582",
+    "name": "Bank Andara",
+    "code": "ANDARA"
+  },
+  {
+    "id": "16",
+    "created_date": "2016-12-15 10:34:06.790321",
+    "update_date": "2016-12-15 10:34:06.790332",
+    "name": "Bank Antar Daerah",
+    "code": "ANTAR_DAERAH"
+  },
+  {
+    "id": "17",
+    "created_date": "2016-12-15 10:34:06.803801",
+    "update_date": "2016-12-15 10:34:06.803813",
+    "name": "Bank ANZ Indonesia",
+    "code": "ANZ"
+  },
+  {
+    "id": "18",
+    "created_date": "2016-12-15 10:34:06.826761",
+    "update_date": "2016-12-15 10:34:06.826790",
+    "name": "Bank Artha Graha International",
+    "code": "ARTHA"
+  },
+  {
+    "id": "19",
+    "created_date": "2016-12-15 10:34:06.840407",
+    "update_date": "2016-12-15 10:34:06.840417",
+    "name": "Bank Artos Indonesia",
+    "code": "ARTOS"
+  },
+  {
+    "id": "20",
+    "created_date": "2016-12-15 10:34:06.863183",
+    "update_date": "2016-12-15 10:34:06.863193",
+    "name": "Bank Bisnis Internasional",
+    "code": "BISNIS_INTERNASIONAL"
+  },
+  {
+    "id": "21",
+    "created_date": "2016-12-15 10:34:06.876867",
+    "update_date": "2016-12-15 10:34:06.876876",
+    "name": "Bank BJB",
+    "code": "BJB"
+  },
+  {
+    "id": "22",
+    "created_date": "2016-12-15 10:34:06.892749",
+    "update_date": "2016-12-15 10:34:06.892761",
+    "name": "Bank BJB Syariah",
+    "code": "BJB_SYR"
+  },
+  {
+    "id": "23",
+    "created_date": "2016-12-15 10:34:06.906777",
+    "update_date": "2016-12-15 10:34:06.906787",
+    "name": "Bank BNI Syariah",
+    "code": "BNI_SYR"
+  },
+  {
+    "id": "24",
+    "created_date": "2016-12-15 10:34:06.929698",
+    "update_date": "2016-12-15 10:34:06.929710",
+    "name": "Bank BNP Paribas",
+    "code": "BNP_PARIBAS"
+  },
+  {
+    "id": "25",
+    "created_date": "2016-12-15 10:34:06.943277",
+    "update_date": "2016-12-15 10:34:06.943287",
+    "name": "Bank Bukopin",
+    "code": "BUKOPIN"
+  },
+  {
+    "id": "26",
+    "created_date": "2016-12-15 10:34:06.956951",
+    "update_date": "2016-12-15 10:34:06.956962",
+    "name": "Bank Bumi Arta",
+    "code": "BUMI_ARTA"
+  },
+  {
+    "id": "27",
+    "created_date": "2016-12-15 10:34:06.979805",
+    "update_date": "2016-12-15 10:34:06.979818",
+    "name": "Bank Capital Indonesia",
+    "code": "CAPITAL"
+  },
+  {
+    "id": "28",
+    "created_date": "2016-12-15 10:34:06.995565",
+    "update_date": "2016-12-15 10:34:06.995576",
+    "name": "Bank Central Asia (BCA) Syariah",
+    "code": "BCA_SYR"
+  },
+  {
+    "id": "29",
+    "created_date": "2016-12-15 10:34:07.009856",
+    "update_date": "2016-12-15 10:34:07.009867",
+    "name": "Bank Chinatrust Indonesia",
+    "code": "CHINATRUST"
+  },
+  {
+    "id": "30",
+    "created_date": "2016-12-15 10:34:07.027524",
+    "update_date": "2016-12-15 10:34:07.027538",
+    "name": "Bank CIMB Niaga UUS",
+    "code": "CIMB_UUS"
+  },
+  {
+    "id": "31",
+    "created_date": "2016-12-15 10:34:07.051843",
+    "update_date": "2016-12-15 10:34:07.051855",
+    "name": "Bank Commonwealth",
+    "code": "COMMONWEALTH"
+  },
+  {
+    "id": "32",
+    "created_date": "2016-12-15 10:34:07.065926",
+    "update_date": "2016-12-15 10:34:07.065938",
+    "name": "Bank Danamon UUS",
+    "code": "DANAMON_UUS"
+  },
+  {
+    "id": "33",
+    "created_date": "2016-12-15 10:34:07.091386",
+    "update_date": "2016-12-15 10:34:07.091398",
+    "name": "Bank DBS Indonesia",
+    "code": "DBS"
+  },
+  {
+    "id": "34",
+    "created_date": "2016-12-15 10:34:07.105168",
+    "update_date": "2016-12-15 10:34:07.105178",
+    "name": "Bank Dinar Indonesia",
+    "code": "DINAR_INDONESIA"
+  },
+  {
+    "id": "35",
+    "created_date": "2016-12-15 10:34:07.119761",
+    "update_date": "2016-12-15 10:34:07.119771",
+    "name": "Bank DKI",
+    "code": "DKI"
+  },
+  {
+    "id": "36",
+    "created_date": "2016-12-15 10:34:07.137814",
+    "update_date": "2016-12-15 10:34:07.137828",
+    "name": "Bank DKI UUS",
+    "code": "DKI_UUS"
+  },
+  {
+    "id": "37",
+    "created_date": "2016-12-15 10:34:07.159647",
+    "update_date": "2016-12-15 10:34:07.159657",
+    "name": "HSBC Indonesia",
+    "code": "HSBC"
+  },
+  {
+    "id": "38",
+    "created_date": "2016-12-15 10:34:07.181372",
+    "update_date": "2016-12-15 10:34:07.181383",
+    "name": "Bank Fama International",
+    "code": "FAMA"
+  },
+  {
+    "id": "39",
+    "created_date": "2016-12-15 10:34:07.204239",
+    "update_date": "2016-12-15 10:34:07.204250",
+    "name": "Bank Ganesha",
+    "code": "GANESHA"
+  },
+  {
+    "id": "40",
+    "created_date": "2016-12-15 10:34:07.218964",
+    "update_date": "2016-12-15 10:34:07.218974",
+    "name": "Bank Hana",
+    "code": "HANA"
+  },
+  {
+    "id": "41",
+    "created_date": "2016-12-15 10:34:07.238675",
+    "update_date": "2016-12-15 10:34:07.238687",
+    "name": "Bank Harda Internasional",
+    "code": "HARDA_INTERNASIONAL"
+  },
+  {
+    "id": "42",
+    "created_date": "2016-12-15 10:34:07.267393",
+    "update_date": "2016-12-15 10:34:07.267406",
+    "name": "Bank Himpunan Saudara 1906",
+    "code": "HIMPUNAN_SAUDARA"
+  },
+  {
+    "id": "43",
+    "created_date": "2016-12-15 10:34:07.288195",
+    "update_date": "2016-12-15 10:34:07.288207",
+    "name": "Bank ICBC Indonesia",
+    "code": "ICBC"
+  },
+  {
+    "id": "44",
+    "created_date": "2016-12-15 10:34:07.311562",
+    "update_date": "2016-12-15 10:34:07.311575",
+    "name": "Bank Ina Perdania",
+    "code": "INA_PERDANA"
+  },
+  {
+    "id": "45",
+    "created_date": "2016-12-15 10:34:07.325207",
+    "update_date": "2016-12-15 10:34:07.325217",
+    "name": "Bank Index Selindo",
+    "code": "INDEX_SELINDO"
+  },
+  {
+    "id": "47",
+    "created_date": "2016-12-15 10:34:07.355908",
+    "update_date": "2016-12-15 10:34:07.355918",
+    "name": "Bank Jasa Jakarta",
+    "code": "JASA_JAKARTA"
+  },
+  {
+    "id": "48",
+    "created_date": "2016-12-15 10:34:07.378363",
+    "update_date": "2016-12-15 10:34:07.378374",
+    "name": "Bank Kesejahteraan Ekonomi",
+    "code": "KESEJAHTERAAN_EKONOMI"
+  },
+  {
+    "id": "49",
+    "created_date": "2016-12-15 10:34:07.392440",
+    "update_date": "2016-12-15 10:34:07.392451",
+    "name": "Bank Maspion Indonesia",
+    "code": "MASPION"
+  },
+  {
+    "id": "50",
+    "created_date": "2016-12-15 10:34:07.417542",
+    "update_date": "2016-12-15 10:34:07.417553",
+    "name": "Bank Mayapada International",
+    "code": "MAYAPADA"
+  },
+  {
+    "id": "51",
+    "created_date": "2016-12-15 10:34:07.431195",
+    "update_date": "2016-12-15 10:34:07.431206",
+    "name": "Bank Maybank Syariah Indonesia",
+    "code": "MAYBANK_SYR"
+  },
+  {
+    "id": "52",
+    "created_date": "2016-12-15 10:34:07.448568",
+    "update_date": "2016-12-15 10:34:07.448578",
+    "name": "Bank Mayora",
+    "code": "MAYORA"
+  },
+  {
+    "id": "53",
+    "created_date": "2016-12-15 10:34:07.462209",
+    "update_date": "2016-12-15 10:34:07.462219",
+    "name": "Bank Mega",
+    "code": "MEGA"
+  },
+  {
+    "id": "54",
+    "created_date": "2016-12-15 10:34:07.485655",
+    "update_date": "2016-12-15 10:34:07.485670",
+    "name": "Bank Mestika Dharma",
+    "code": "MESTIKA_DHARMA"
+  },
+  {
+    "id": "55",
+    "created_date": "2016-12-15 10:34:07.499293",
+    "update_date": "2016-12-15 10:34:07.499303",
+    "name": "Bank Shinhan Indonesia",
+    "code": "SHINHAN"
+  },
+  {
+    "id": "56",
+    "created_date": "2016-12-15 10:34:07.512824",
+    "update_date": "2016-12-15 10:34:07.512837",
+    "name": "Bank Mitra Niaga",
+    "code": "MITRA_NIAGA"
+  },
+  {
+    "id": "57",
+    "created_date": "2016-12-15 10:34:07.536974",
+    "update_date": "2016-12-15 10:34:07.536987",
+    "name": "Bank Mizuho Indonesia",
+    "code": "MIZUHO"
+  },
+  {
+    "id": "58",
+    "created_date": "2016-12-15 10:34:07.556156",
+    "update_date": "2016-12-15 10:34:07.556169",
+    "name": "Bank MNC Internasional",
+    "code": "MNC_INTERNASIONAL"
+  },
+  {
+    "id": "59",
+    "created_date": "2016-12-15 10:34:07.570302",
+    "update_date": "2016-12-15 10:34:07.570312",
+    "name": "Bank Muamalat Indonesia",
+    "code": "MUAMALAT"
+  },
+  {
+    "id": "60",
+    "created_date": "2016-12-15 10:34:07.594871",
+    "update_date": "2016-12-15 10:34:07.594884",
+    "name": "Bank Multi Arta Sentosa",
+    "code": "MULTI_ARTA_SENTOSA"
+  },
+  {
+    "id": "61",
+    "created_date": "2016-12-15 10:34:07.609343",
+    "update_date": "2016-12-15 10:34:07.609353",
+    "name": "Bank JTrust Indonesia (formerly Bank Mutiara)",
+    "code": "JTRUST"
+  },
+  {
+    "id": "62",
+    "created_date": "2016-12-15 10:34:07.623212",
+    "update_date": "2016-12-15 10:34:07.623223",
+    "name": "Bank Nationalnobu",
+    "code": "NATIONALNOBU"
+  },
+  {
+    "id": "63",
+    "created_date": "2016-12-15 10:34:07.647261",
+    "update_date": "2016-12-15 10:34:07.647271",
+    "name": "Bank Nusantara Parahyangan",
+    "code": "NUSANTARA_PARAHYANGAN"
+  },
+  {
+    "id": "64",
+    "created_date": "2016-12-15 10:34:07.662295",
+    "update_date": "2016-12-15 10:34:07.662305",
+    "name": "Bank OCBC NISP",
+    "code": "OCBC"
+  },
+  {
+    "id": "65",
+    "created_date": "2016-12-15 10:34:07.677260",
+    "update_date": "2016-12-15 10:34:07.677270",
+    "name": "Bank OCBC NISP UUS",
+    "code": "OCBC_UUS"
+  },
+  {
+    "id": "66",
+    "created_date": "2016-12-15 10:34:07.693036",
+    "update_date": "2016-12-15 10:34:07.693045",
+    "name": "Bank of America Merill-Lynch",
+    "code": "BAML"
+  },
+  {
+    "id": "67",
+    "created_date": "2016-12-15 10:34:07.717614",
+    "update_date": "2016-12-15 10:34:07.717624",
+    "name": "Bank of China (BOC)",
+    "code": "BOC"
+  },
+  {
+    "id": "68",
+    "created_date": "2016-12-15 10:34:07.731316",
+    "update_date": "2016-12-15 10:34:07.731325",
+    "name": "Bank of India Indonesia",
+    "code": "INDIA"
+  },
+  {
+    "id": "69",
+    "created_date": "2016-12-15 10:34:07.757372",
+    "update_date": "2016-12-15 10:34:07.757382",
+    "name": "Bank of Tokyo Mitsubishi UFJ",
+    "code": "TOKYO"
+  },
+  {
+    "id": "70",
+    "created_date": "2016-12-15 10:34:07.771100",
+    "update_date": "2016-12-15 10:34:07.771110",
+    "name": "Bank Panin Syariah",
+    "code": "PANIN_SYR"
+  },
+  {
+    "id": "71",
+    "created_date": "2016-12-15 10:34:07.784934",
+    "update_date": "2016-12-15 10:34:07.784943",
+    "name": "Bank Permata UUS",
+    "code": "PERMATA_UUS"
+  },
+  {
+    "id": "72",
+    "created_date": "2016-12-15 10:34:07.802585",
+    "update_date": "2016-12-15 10:34:07.802594",
+    "name": "BPD Banten",
+    "code": "BANTEN"
+  },
+  {
+    "id": "73",
+    "created_date": "2016-12-15 10:34:07.826011",
+    "update_date": "2016-12-15 10:34:07.826022",
+    "name": "Bank QNB Indonesia (formerly Bank QNB Kesawan)",
+    "code": "QNB_INDONESIA"
+  },
+  {
+    "id": "74",
+    "created_date": "2016-12-15 10:34:07.843883",
+    "update_date": "2016-12-15 10:34:07.843892",
+    "name": "Bank Rabobank International Indonesia",
+    "code": "RABOBANK"
+  },
+  {
+    "id": "75",
+    "created_date": "2016-12-15 10:34:07.865783",
+    "update_date": "2016-12-15 10:34:07.865793",
+    "name": "Bank Resona Perdania",
+    "code": "RESONA"
+  },
+  {
+    "id": "76",
+    "created_date": "2016-12-15 10:34:07.879727",
+    "update_date": "2016-12-15 10:34:07.879736",
+    "name": "Bank Royal Indonesia",
+    "code": "ROYAL"
+  },
+  {
+    "id": "77",
+    "created_date": "2016-12-15 10:34:07.894108",
+    "update_date": "2016-12-15 10:34:07.894117",
+    "name": "BTPN Syariah",
+    "code": "BTPN_SYARIAH"
+  },
+  {
+    "id": "78",
+    "created_date": "2016-12-15 10:34:07.908658",
+    "update_date": "2016-12-15 10:34:07.908667",
+    "name": "Bank Sahabat Sampoerna",
+    "code": "SAHABAT_SAMPOERNA"
+  },
+  {
+    "id": "79",
+    "created_date": "2016-12-15 10:34:07.930191",
+    "update_date": "2016-12-15 10:34:07.930201",
+    "name": "Bank SBI Indonesia",
+    "code": "SBI_INDONESIA"
+  },
+  {
+    "id": "80",
+    "created_date": "2016-12-15 10:34:07.944032",
+    "update_date": "2016-12-15 10:34:07.944041",
+    "name": "Mandiri Taspen Pos",
+    "code": "MANDIRI_TASPEN"
+  },
+  {
+    "id": "81",
+    "created_date": "2016-12-15 10:34:07.957658",
+    "update_date": "2016-12-15 10:34:07.957668",
+    "name": "Bank Sumitomo Mitsui Indonesia",
+    "code": "MITSUI"
+  },
+  {
+    "id": "82",
+    "created_date": "2016-12-15 10:34:07.980988",
+    "update_date": "2016-12-15 10:34:07.980998",
+    "name": "Bank Syariah BRI",
+    "code": "BRI_SYR"
+  },
+  {
+    "id": "83",
+    "created_date": "2016-12-15 10:34:07.994562",
+    "update_date": "2016-12-15 10:34:07.994571",
+    "name": "Bank Syariah Bukopin",
+    "code": "BUKOPIN_SYR"
+  },
+  {
+    "id": "84",
+    "created_date": "2016-12-15 10:34:08.018376",
+    "update_date": "2016-12-15 10:34:08.018388",
+    "name": "Bank Syariah Mandiri",
+    "code": "MANDIRI_SYR"
+  },
+  {
+    "id": "85",
+    "created_date": "2016-12-15 10:34:08.040914",
+    "update_date": "2016-12-15 10:34:08.040923",
+    "name": "Bank Syariah Mega",
+    "code": "MEGA_SYR"
+  },
+  {
+    "id": "86",
+    "created_date": "2016-12-15 10:34:08.054550",
+    "update_date": "2016-12-15 10:34:08.054559",
+    "name": "Bank Tabungan Negara (BTN)",
+    "code": "BTN"
+  },
+  {
+    "id": "87",
+    "created_date": "2016-12-15 10:34:08.080326",
+    "update_date": "2016-12-15 10:34:08.080336",
+    "name": "Bank Tabungan Negara (BTN) UUS",
+    "code": "BTN_UUS"
+  },
+  {
+    "id": "88",
+    "created_date": "2016-12-15 10:34:08.094456",
+    "update_date": "2016-12-15 10:34:08.094466",
+    "name": "Bank Tabungan Pensiunan Nasional",
+    "code": "TABUNGAN_PENSIUNAN_NASIONAL"
+  },
+  {
+    "id": "90",
+    "created_date": "2016-12-15 10:34:08.130747",
+    "update_date": "2016-12-15 10:34:08.130756",
+    "name": "Bank UOB Indonesia",
+    "code": "UOB"
+  },
+  {
+    "id": "91",
+    "created_date": "2016-12-15 10:34:08.153047",
+    "update_date": "2016-12-15 10:34:08.153059",
+    "name": "Bank Victoria Internasional",
+    "code": "VICTORIA_INTERNASIONAL"
+  },
+  {
+    "id": "92",
+    "created_date": "2016-12-15 10:34:08.170152",
+    "update_date": "2016-12-15 10:34:08.170161",
+    "name": "Bank Victoria Syariah",
+    "code": "VICTORIA_SYR"
+  },
+  {
+    "id": "93",
+    "created_date": "2016-12-15 10:34:08.193230",
+    "update_date": "2016-12-15 10:34:08.193241",
+    "name": "China Construction Bank Indonesia",
+    "code": "CCB"
+  },
+  {
+    "id": "94",
+    "created_date": "2016-12-15 10:34:08.207589",
+    "update_date": "2016-12-15 10:34:08.207599",
+    "name": "Bank Woori Indonesia",
+    "code": "WOORI"
+  },
+  {
+    "id": "95",
+    "created_date": "2016-12-15 10:34:08.222989",
+    "update_date": "2016-12-15 10:34:08.222999",
+    "name": "Bank Yudha Bhakti",
+    "code": "YUDHA_BHAKTI"
+  },
+  {
+    "id": "96",
+    "created_date": "2016-12-15 10:34:08.236554",
+    "update_date": "2016-12-15 10:34:08.236563",
+    "name": "BPD Aceh",
+    "code": "ACEH"
+  },
+  {
+    "id": "97",
+    "created_date": "2016-12-15 10:34:08.258973",
+    "update_date": "2016-12-15 10:34:08.258984",
+    "name": "BPD Aceh UUS",
+    "code": "ACEH_UUS"
+  },
+  {
+    "id": "98",
+    "created_date": "2016-12-15 10:34:08.277697",
+    "update_date": "2016-12-15 10:34:08.277706",
+    "name": "BPD Bali",
+    "code": "BALI"
+  },
+  {
+    "id": "99",
+    "created_date": "2016-12-15 10:34:08.301503",
+    "update_date": "2016-12-15 10:34:08.301513",
+    "name": "BPD Bengkulu",
+    "code": "BENGKULU"
+  },
+  {
+    "id": "100",
+    "created_date": "2016-12-15 10:34:08.318094",
+    "update_date": "2016-12-15 10:34:08.318103",
+    "name": "BPD Daerah Istimewa Yogyakarta (DIY)",
+    "code": "DAERAH_ISTIMEWA"
+  },
+  {
+    "id": "101",
+    "created_date": "2016-12-15 10:34:08.332221",
+    "update_date": "2016-12-15 10:34:08.332231",
+    "name": "BPD Daerah Istimewa Yogyakarta (DIY) UUS",
+    "code": "DAERAH_ISTIMEWA_UUS"
+  },
+  {
+    "id": "102",
+    "created_date": "2016-12-15 10:34:08.345940",
+    "update_date": "2016-12-15 10:34:08.345950",
+    "name": "BPD Jambi",
+    "code": "JAMBI"
+  },
+  {
+    "id": "103",
+    "created_date": "2016-12-15 10:34:08.367569",
+    "update_date": "2016-12-15 10:34:08.367579",
+    "name": "BPD Jambi UUS",
+    "code": "JAMBI_UUS"
+  },
+  {
+    "id": "104",
+    "created_date": "2016-12-15 10:34:08.385220",
+    "update_date": "2016-12-15 10:34:08.385229",
+    "name": "BPD Jawa Tengah",
+    "code": "JAWA_TENGAH"
+  },
+  {
+    "id": "105",
+    "created_date": "2016-12-15 10:34:08.398586",
+    "update_date": "2016-12-15 10:34:08.398594",
+    "name": "BPD Jawa Tengah UUS",
+    "code": "JAWA_TENGAH_UUS"
+  },
+  {
+    "id": "106",
+    "created_date": "2016-12-15 10:34:08.419720",
+    "update_date": "2016-12-15 10:34:08.419729",
+    "name": "BPD Jawa Timur",
+    "code": "JAWA_TIMUR"
+  },
+  {
+    "id": "107",
+    "created_date": "2016-12-15 10:34:08.433348",
+    "update_date": "2016-12-15 10:34:08.433357",
+    "name": "BPD Jawa Timur",
+    "code": "JAWA_TIMUR_UUS"
+  },
+  {
+    "id": "108",
+    "created_date": "2016-12-15 10:34:08.447131",
+    "update_date": "2016-12-15 10:34:08.447140",
+    "name": "BPD Kalimantan Barat",
+    "code": "KALIMANTAN_BARAT"
+  },
+  {
+    "id": "109",
+    "created_date": "2016-12-15 10:34:08.460413",
+    "update_date": "2016-12-15 10:34:08.460423",
+    "name": "BPD Kalimantan Barat UUS",
+    "code": "KALIMANTAN_BARAT_UUS"
+  },
+  {
+    "id": "110",
+    "created_date": "2016-12-15 10:34:08.487274",
+    "update_date": "2016-12-15 10:34:08.487284",
+    "name": "BPD Kalimantan Selatan",
+    "code": "KALIMANTAN_SELATAN"
+  },
+  {
+    "id": "111",
+    "created_date": "2016-12-15 10:34:08.501765",
+    "update_date": "2016-12-15 10:34:08.501776",
+    "name": "BPD Kalimantan Selatan UUS",
+    "code": "KALIMANTAN_SELATAN_UUS"
+  },
+  {
+    "id": "112",
+    "created_date": "2016-12-15 10:34:08.525346",
+    "update_date": "2016-12-15 10:34:08.525357",
+    "name": "BPD Kalimantan Tengah",
+    "code": "KALIMANTAN_TENGAH"
+  },
+  {
+    "id": "113",
+    "created_date": "2016-12-15 10:34:08.546373",
+    "update_date": "2016-12-15 10:34:08.546386",
+    "name": "BPD Kalimantan Timur",
+    "code": "KALIMANTAN_TIMUR"
+  },
+  {
+    "id": "114",
+    "created_date": "2016-12-15 10:34:08.563242",
+    "update_date": "2016-12-15 10:34:08.563254",
+    "name": "BPD Kalimantan Timur UUS",
+    "code": "KALIMANTAN_TIMUR_UUS"
+  },
+  {
+    "id": "115",
+    "created_date": "2016-12-15 10:34:08.579844",
+    "update_date": "2016-12-15 10:34:08.579854",
+    "name": "BPD Lampung",
+    "code": "LAMPUNG"
+  },
+  {
+    "id": "116",
+    "created_date": "2016-12-15 10:34:08.598515",
+    "update_date": "2016-12-15 10:34:08.598526",
+    "name": "BPD Maluku",
+    "code": "MALUKU"
+  },
+  {
+    "id": "117",
+    "created_date": "2016-12-15 10:34:08.612560",
+    "update_date": "2016-12-15 10:34:08.612573",
+    "name": "BPD Nusa Tenggara Barat",
+    "code": "NUSA_TENGGARA_BARAT"
+  },
+  {
+    "id": "118",
+    "created_date": "2016-12-15 10:34:08.635536",
+    "update_date": "2016-12-15 10:34:08.635549",
+    "name": "BPD Nusa Tenggara Barat UUS",
+    "code": "NUSA_TENGGARA_BARAT_UUS"
+  },
+  {
+    "id": "119",
+    "created_date": "2016-12-15 10:34:08.649268",
+    "update_date": "2016-12-15 10:34:08.649278",
+    "name": "BPD Nusa Tenggara Timur",
+    "code": "NUSA_TENGGARA_TIMUR"
+  },
+  {
+    "id": "120",
+    "created_date": "2016-12-15 10:34:08.662873",
+    "update_date": "2016-12-15 10:34:08.662883",
+    "name": "BPD Papua",
+    "code": "PAPUA"
+  },
+  {
+    "id": "121",
+    "created_date": "2016-12-15 10:34:08.676507",
+    "update_date": "2016-12-15 10:34:08.676519",
+    "name": "BPD Riau Dan Kepri",
+    "code": "RIAU_DAN_KEPRI"
+  },
+  {
+    "id": "122",
+    "created_date": "2016-12-15 10:34:08.703546",
+    "update_date": "2016-12-15 10:34:08.703559",
+    "name": "BPD Riau Dan Kepri UUS",
+    "code": "RIAU_DAN_KEPRI_UUS"
+  },
+  {
+    "id": "123",
+    "created_date": "2016-12-15 10:34:08.717642",
+    "update_date": "2016-12-15 10:34:08.717654",
+    "name": "BPD Sulawesi Tengah",
+    "code": "SULAWESI"
+  },
+  {
+    "id": "124",
+    "created_date": "2016-12-15 10:34:08.742495",
+    "update_date": "2016-12-15 10:34:08.742508",
+    "name": "BPD Sulawesi Tenggara",
+    "code": "SULAWESI_TENGGARA"
+  },
+  {
+    "id": "125",
+    "created_date": "2016-12-15 10:34:08.756491",
+    "update_date": "2016-12-15 10:34:08.756502",
+    "name": "BPD Sulselbar",
+    "code": "SULSELBAR"
+  },
+  {
+    "id": "126",
+    "created_date": "2016-12-15 10:34:08.770234",
+    "update_date": "2016-12-15 10:34:08.770245",
+    "name": "BPD Sulselbar UUS",
+    "code": "SULSELBAR_UUS"
+  },
+  {
+    "id": "127",
+    "created_date": "2016-12-15 10:34:08.784000",
+    "update_date": "2016-12-15 10:34:08.784012",
+    "name": "BPD Sulut",
+    "code": "SULUT"
+  },
+  {
+    "id": "128",
+    "created_date": "2016-12-15 10:34:08.809965",
+    "update_date": "2016-12-15 10:34:08.809978",
+    "name": "BPD Sumatera Barat",
+    "code": "SUMATERA_BARAT"
+  },
+  {
+    "id": "129",
+    "created_date": "2016-12-15 10:34:08.823649",
+    "update_date": "2016-12-15 10:34:08.823663",
+    "name": "BPD Sumatera Barat UUS",
+    "code": "SUMATERA_BARAT_UUS"
+  },
+  {
+    "id": "130",
+    "created_date": "2016-12-15 10:34:08.837361",
+    "update_date": "2016-12-15 10:34:08.837374",
+    "name": "BPD Sumsel Dan Babel",
+    "code": "SUMSEL_DAN_BABEL"
+  },
+  {
+    "id": "131",
+    "created_date": "2016-12-15 10:34:08.860949",
+    "update_date": "2016-12-15 10:34:08.860962",
+    "name": "BPD Sumsel Dan Babel UUS",
+    "code": "SUMSEL_DAN_BABEL_UUS"
+  },
+  {
+    "id": "132",
+    "created_date": "2016-12-15 10:34:08.874938",
+    "update_date": "2016-12-15 10:34:08.874950",
+    "name": "BPD Sumut",
+    "code": "SUMUT"
+  },
+  {
+    "id": "133",
+    "created_date": "2016-12-15 10:34:08.889089",
+    "update_date": "2016-12-15 10:34:08.889100",
+    "name": "BPD Sumut UUS",
+    "code": "SUMUT_UUS"
+  },
+  {
+    "id": "134",
+    "created_date": "2016-12-15 10:34:08.907838",
+    "update_date": "2016-12-15 10:34:08.907851",
+    "name": "Centratama Nasional Bank",
+    "code": "CENTRATAMA"
+  },
+  {
+    "id": "135",
+    "created_date": "2016-12-15 10:34:08.932126",
+    "update_date": "2016-12-15 10:34:08.932136",
+    "name": "Citibank",
+    "code": "CITIBANK"
+  },
+  {
+    "id": "136",
+    "created_date": "2016-12-15 10:34:08.946456",
+    "update_date": "2016-12-15 10:34:08.946467",
+    "name": "Deutsche Bank",
+    "code": "DEUTSCHE"
+  },
+  {
+    "id": "137",
+    "created_date": "2016-12-15 10:34:08.969733",
+    "update_date": "2016-12-15 10:34:08.969744",
+    "name": "Hongkong and Shanghai Bank Corporation (HSBC)",
+    "code": "HSBC"
+  },
+  {
+    "id": "138",
+    "created_date": "2016-12-15 10:34:08.984226",
+    "update_date": "2016-12-15 10:34:08.984236",
+    "name": "Hongkong and Shanghai Bank Corporation (HSBC) UUS",
+    "code": "HSBC_UUS"
+  },
+  {
+    "id": "139",
+    "created_date": "2016-12-15 10:34:08.998147",
+    "update_date": "2016-12-15 10:34:08.998157",
+    "name": "JP Morgan Chase Bank",
+    "code": "JPMORGAN"
+  },
+  {
+    "id": "140",
+    "created_date": "2016-12-15 10:34:09.014104",
+    "update_date": "2016-12-15 10:34:09.014117",
+    "name": "Prima Master Bank",
+    "code": "PRIMA_MASTER"
+  },
+  {
+    "id": "141",
+    "created_date": "2016-12-15 10:34:09.037311",
+    "update_date": "2016-12-15 10:34:09.037323",
+    "name": "Royal Bank of Scotland (RBS)",
+    "code": "RBS"
+  },
+  {
+    "id": "142",
+    "created_date": "2016-12-15 10:34:09.051264",
+    "update_date": "2016-12-15 10:34:09.051274",
+    "name": "Bank Standard Chartered",
+    "code": "STANDARD_CHARTERED"
+  },
+  {
+    "id": "143",
+    "created_date": "2016-12-15 10:34:09.056264",
+    "update_date": "2016-12-15 10:34:09.056274",
+    "name": "Bank Amar Indonesia",
+    "code": "AMAR"
+  },
+  {
+    "id": "144",
+    "created_date": "2016-12-15 10:34:09.057264",
+    "update_date": "2016-12-15 10:34:09.057274",
+    "name": "Bank Arta Niaga Kencana",
+    "code": "ARTA_NIAGA_KENCANA"
+  },
+  {
+    "id": "145",
+    "created_date": "2016-12-15 10:34:09.061264",
+    "update_date": "2016-12-15 10:34:09.061274",
+    "name": "Bank Woori Saudara Indonesia 1906",
+    "code": "WOORI_SAUDARA"
+  },
+  {
+    "id": "146",
+    "created_date": "2016-12-15 10:34:09.062264",
+    "update_date": "2016-12-15 10:34:09.062274",
+    "name": "Indonesia Eximbank",
+    "code": "EXIMBANK"
+  }
+]
